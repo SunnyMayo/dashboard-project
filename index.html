@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="light">
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <body class="light">
         
         <div id="sidebar">
             <div id="dashboard" class="option">
@@ -58,6 +58,7 @@
                 </div>
 
                 <div id="admin-bar">
+                    <button type="button" name="toggle-theme" onclick="toggleTheme()"><img class="admin-icon" src="icons/theme.svg" alt="toggle-theme"></button>
                     <img class="admin-icon" src="icons/notification.svg" alt="notification">
                     <img class="admin-icon" src="icons/support.svg" alt="profile">
                     <span id="account">Sunny Mayo</span>
@@ -180,6 +181,7 @@
             </div>
         </div>
 
+        <script src="script.js"></script>
     </body>
 
 </html>
