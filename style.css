@@ -1,0 +1,22 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(120px 200px);
+}
+
+#sidebar {
+    background-color: blue;
+}
+
+#header {
+    background-color: aliceblue;
+}
+
+#content {
+    background-color: aqua;
+}
